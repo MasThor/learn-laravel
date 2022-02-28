@@ -25,4 +25,16 @@ body{
     background-color: blueviolet;
     padding: 10px;
     color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.alert-body{
+    padding: 10px;
+}
+
+.alert-footer{
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
 }

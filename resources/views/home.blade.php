@@ -4,9 +4,14 @@
     <p>Home</p>
 
     @component('components.alert')
-        it's slot. <br>
-        (children)
+        @slot('header')
+            It's Header
+        @endslot
+        it's slot (children). <br>
+        It's Default Component
+        @slot('footer')
+            It's Footer
+        @endslot
+
     @endcomponent
-
-
 @endsection
