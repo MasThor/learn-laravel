@@ -14,3 +14,15 @@ body{
     text-decoration: none;
     display: inline-block;
 }
+
+.alert{
+    background-color: indigo;
+    color: white;
+    border-radius: 20px;
+}
+
+.alert-header{
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+}

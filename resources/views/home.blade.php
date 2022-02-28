@@ -1,5 +1,12 @@
 @extends('layouts.app' , ["title" => "Home"])
 
 @section('content')
-    Home
+    <p>Home</p>
+
+    @component('components.alert')
+        it's slot. <br>
+        (children)
+    @endcomponent
+
+
 @endsection
