@@ -1,6 +1,4 @@
-@extends('layouts.app' , ["title" => "Home"])
-
-@section('content')
+<x-app-layout title="Learn Laravel">
     <p>Home</p>
 
     @component('components.alert')
@@ -27,4 +25,4 @@
             This can only be used, if the component file is in the <strong>views > components</strong> folder 
         </x-slot>
     </x-alert>
-@endsection
+</x-app-layout>

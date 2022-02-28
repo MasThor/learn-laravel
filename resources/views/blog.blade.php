@@ -1,5 +1,17 @@
-@extends('layouts.app' , ["title" => "Blog"])
+<x-app-layout title="Blog">
+    @slot('styles')
+        <style>
+            body{
+                background-color: #234
+            }
+        </style>
+    @endslot
 
-@section('content')
     Blog
-@endsection
+
+    <x-slot name="scripts">
+        <script>
+            alert("TEst")
+        </script>
+    </x-slot>
+</x-app-layout>

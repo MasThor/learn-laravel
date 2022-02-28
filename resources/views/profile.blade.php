@@ -1,5 +1,3 @@
-@extends('layouts.app' , ["title" => "Blog"])
-
-@section('content')
-    <h1>Profile</h1>
-@endsection
+<x-app-layout title="Profile">
+    Profile
+</x-app-layout>

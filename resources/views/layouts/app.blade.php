@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset("css/app.css") }}">
     <title>{{ $title }} | Learn Laravel</title>
+    {{ $styles }}
 </head>
 <body>
     <x-navbar></x-navbar>
     
-    @yield('content')
+    {{ $slot }}
     
 </body>
+
+    {{ $scripts }}
 </html
