@@ -1,6 +1,7 @@
-
-    <ul class="navbar">
-        <li><a href="/">Home</a></li>
-        <li><a href="/profile">Profile</a></li>
-        <li><a href="/blog">Blog</a></li>
-    </ul>
+<ul class="navbar">
+    @foreach ($navigation as $menu => $url)
+        <li>
+            <a href="{{ $url }}">{{ $menu }}</a>
+        </li>
+    @endforeach
+</ul>

@@ -8,7 +8,7 @@
     <title>{{ $title }} | Learn Laravel</title>
 </head>
 <body>
-    @include('layouts.navbar')
+    <x-navbar></x-navbar>
     
     @yield('content')
     
