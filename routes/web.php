@@ -17,15 +17,11 @@ Route::get('/', function () {
     return view("home");
 });
 
-
-
 Route::get('/profile', function () {
-    return 'Its profile';
-    // return view('welcome');
-});
+    return view('profile');
+}); 
 
-Route::get('/blok', function () {
-    return 'tetew';
-    // return view('welcome');
+Route::get('/blog', function () {
+    return view('blog');
 });
 
